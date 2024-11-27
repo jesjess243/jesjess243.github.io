@@ -10,7 +10,7 @@ This page communicates my development history and goals using semantic HTML and 
 
 ### Accessing page
 
-Under Construction! 
+This page is accessed live at [jesjess243.github.io](https://jesjess243.github.io).
 
 ### Cloning this project locally
 
@@ -26,7 +26,7 @@ Jesse Herring - [LinkedIn](https://linkedin.com/in/jessedherring)
 
 ## Version History
 
-Under construction! 
+* 0.1 - Initial deployment
 
 ## License
 
