@@ -22,8 +22,7 @@ Then simply run index.html on an HTTP server of your choice, such as VSCode's 'L
 
 ## Author
 
-ex. Jesse Herring
-ex. [LinkedIn](https://linkedin.com/in/jessedherring)
+Jesse Herring - [LinkedIn](https://linkedin.com/in/jessedherring)
 
 ## Version History
 
