@@ -1,0 +1,144 @@
+/* css/style.css */
+
+@font-face {
+    font-family: 'Vegan Style';
+    src: url("public/fonts/vegan-style-font/VeganStylePersonalUse-5Y58.ttf");
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Fira Sans';
+    margin-top: 5rem;
+    display: flex;
+    flex-flow: column;
+}
+
+/* nav header */
+
+body > header > h1 {
+    font-family: 'Vegan Style';
+    font-size: 2.5rem;
+    transform: rotate(-10deg);
+    transform-origin: 0%;
+    margin-right: 2rem;
+}
+
+body > header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+body > header > nav {
+    display: block;
+    justify-content: flex-end;
+}
+
+body > header > nav > a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 0.25rem solid transparent;
+    margin-right: 4vw;
+    font-variant: small-caps;
+}
+
+body > header > nav > a:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 0.25rem solid darkmagenta;
+}
+
+body > header > nav > a:focus {
+    color: white;
+    border-bottom: 0.25rem solid darkmagenta;
+}
+
+/* main */
+
+main > section {
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 6vw 2rem 6vw;
+    align-items: center;
+}
+
+main > section > header > h2 {
+    font-size: 2.25rem;
+}
+
+main > section > p {
+    font-size: 1.25rem;
+}
+
+.bio-section {
+    background-color: darkslateblue;
+}
+
+main > section > header > h3 {
+    font-size: 2.25rem;
+}
+
+section > article {
+    padding-top: 0.25vh;
+    padding-bottom: 0.15vh;
+    margin-bottom: 2vh;
+    text-align: justify;
+    text-justify: auto;
+}
+
+section > article > header {
+    text-align: center;
+}
+
+section > article > section  {
+    border-width: 0.25rem;
+    border-radius: 1.5rem;
+    border-color: darkcyan;
+    padding: 1rem;
+}
+
+section > article > section > header > h4 {
+    font-size: 2rem;
+    word-spacing: 0.5rem;
+}
+
+section > article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+section > article > img {
+    width: 100%;
+    max-width: 50rem;
+    border-radius: 1.5rem;
+    box-shadow:
+    inset 0 0rem 3rem rgba(157, 0, 200, 0.3),
+    0rem 0rem 1rem rgb(200 0 0 / 60%);
+}
+
+section > article > section > p {
+    font-size: 1.25rem;
+}
+
+section > article > section > ul {
+    list-style-type:circle;
+    font-size: 1.25rem;
+}
+
+footer { 
+    align-self: last baseline;
+    margin-right: 2vw;
+}
+
+footer > a {
+    color: lightgray;
+    font-size: 0.85rem;
+}
